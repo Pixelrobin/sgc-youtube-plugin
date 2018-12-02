@@ -133,8 +133,4 @@ function sgc_youtube_is_streaming() {
 	} else return false;
 }
 
-function sgc_youtube_test() {
-	return get_option('sgc_youtube_key');
-}
-
 add_action('admin_init', 'sgc_youtube_init');
